@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 
 const PORT = Number(process.env.PORT || 5174);
-const HOST = process.env.HOST || "127.0.0.1";
+const HOST = process.env.HOST || "0.0.0.0";
 const DB_PATH = path.join(__dirname, "db.json");
 const PUBLIC_DIR = __dirname;
 
