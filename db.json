@@ -1,0 +1,31 @@
+{
+  "profiles": {
+    "player@neurosudoku.app": {
+      "name": "Player",
+      "city": "Almaty",
+      "pro": false,
+      "email": "player@neurosudoku.app",
+      "xp": 0,
+      "streak": 0,
+      "bestTime": null,
+      "updatedAt": "2026-05-29T18:46:05.266Z"
+    }
+  },
+  "attempts": [
+    {
+      "id": "1780080370919-8dd0158a43837",
+      "createdAt": "2026-05-29T18:46:10.919Z",
+      "kind": "daily",
+      "email": "player@neurosudoku.app",
+      "name": "Player",
+      "city": "Almaty",
+      "mode": "focus",
+      "seed": "focus-1780079669974",
+      "score": 1626,
+      "time": 697,
+      "mistakes": 0,
+      "hints": 0
+    }
+  ],
+  "dailySeed": "2026-05-29"
+}

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NeuroSudoku</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <main style="padding:24px;font-family:system-ui,sans-serif">
+        <h1>NeuroSudoku is loading...</h1>
+        <p>If this message stays visible, JavaScript did not start.</p>
+      </main>
+    </div>
+    <script>
+      window.addEventListener("error", function (event) {
+        document.getElementById("app").innerHTML =
+          "<main style='padding:24px;font-family:system-ui,sans-serif;color:#172033;background:#f5f7fb;min-height:100vh'>" +
+          "<h1>NeuroSudoku startup error</h1>" +
+          "<p>" + event.message + "</p>" +
+          "<pre style='white-space:pre-wrap;background:#fff;border:1px solid #d9e0ec;padding:12px;border-radius:8px'>" +
+          (event.filename || "") + ":" + (event.lineno || "") + ":" + (event.colno || "") +
+          "</pre></main>";
+      });
+    </script>
+    <script src="./src/app.js"></script>
+  </body>
+</html>

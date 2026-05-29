@@ -1,0 +1,19 @@
+{
+  "name": "neurosudoku",
+  "version": "1.0.0",
+  "description": "Modern Sudoku web platform with AI coach, daily challenge, city leaderboard and local backend prototype.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "check": "node --check server.js && node --check src/app.js"
+  },
+  "keywords": [
+    "sudoku",
+    "ai-coach",
+    "daily-challenge",
+    "leaderboard"
+  ],
+  "author": "",
+  "license": "MIT"
+}
